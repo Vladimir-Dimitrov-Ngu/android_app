@@ -1,0 +1,1 @@
+from .login_config import SECRET_KEY, USER_PASSWORD
