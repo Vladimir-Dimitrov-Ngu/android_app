@@ -17,7 +17,7 @@ __pycache__
 # AWS User-specific
 .idea/**/aws.xml
 
-# Generated files
+# Generated file
 .idea/**/contentModel.xml
 
 # Sensitive or high-churn files
