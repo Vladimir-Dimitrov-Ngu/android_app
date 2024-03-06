@@ -29,7 +29,7 @@ project/
 |   |   |-- index.html
 |   |
 |   |-- app.js
-|   |-- package.json
+|   |-- package.jsong
 |
 |-- database/
 |   |-- schema.sql
