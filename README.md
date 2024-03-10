@@ -96,6 +96,18 @@ project/
 
 #### app_register.py: Модуль регистрации.
 
+### API
+- POST /api/login
+
+Этот метод принимает POST-запрос по пути "/api/login".
+
+- POST /api/predict
+
+Этот метод также принимает POST-запрос по пути "/api/predict". Запускает задачу create_job(), которая в свою очередь добавляет задачу в очередь
+
+- GET /api/money
+
+Этот метод принимает GET-запрос по пути "/api/money"
 
 ### Демо
 [Демо](https://drive.google.com/file/d/1xM3eyfHUk7nPPBfEhBKGVAPC0kdD_WVk/view?usp=sharing)
