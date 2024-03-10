@@ -14,7 +14,7 @@ class Money(Base):
 
     @classmethod
     def add_money_admin(cls, session):
-        money_for_admin = cls(username='admin', money=500)
+        money_for_admin = cls(username="admin", money=500)
         session.add(money_for_admin)
         try:
             session.commit()
@@ -28,7 +28,8 @@ class Money(Base):
             return money.money
         except NoResultFound:
             return None
-    @classmethod 
+
+    @classmethod
     def add_money_by_username(cls, session, username, amount=100):
         try:
             user_money = session.query(cls).filter_by(username=username).one()

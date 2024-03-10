@@ -11,5 +11,5 @@ app_dash.layout = layout_for_register
 
 app_dash.callback(*ARGUMENTS_FOR_AUTHENTICATE)(authenticate)
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     app_dash.run_server(debug=True)

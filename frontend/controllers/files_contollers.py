@@ -21,6 +21,7 @@ def uploaded_files():
             files.append(filename)
     return files
 
+
 def find_latest_file(directory):
     files = [os.path.join(directory, file) for file in os.listdir(directory)]
     files.sort(key=lambda x: os.path.getmtime(x), reverse=True)
@@ -28,7 +29,7 @@ def find_latest_file(directory):
         return files[0]
     else:
         return None
-    
+
 
 def create_dir(UPLOAD_DIRECTORY):
     if os.path.exists(UPLOAD_DIRECTORY):

@@ -5,4 +5,4 @@ from frontend.templates.predict import PREDICT_FRONT
 from frontend.templates.register import layout_for_register
 from frontend.templates.sidebar_menu import LAYOUT_SIDEBAR
 
-__all__ = ['BANK_FRONT', 'HELP_FRONT', 'MAIN_PAGE_FRONT', 'PREDICT_FRONT']
+__all__ = ["BANK_FRONT", "HELP_FRONT", "MAIN_PAGE_FRONT", "PREDICT_FRONT"]
