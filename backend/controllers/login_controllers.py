@@ -11,6 +11,7 @@ engine = create_engine(DB_PATH)
 Session = sessionmaker(bind=engine)
 session = Session()
 
+
 def login(user: User):
     token = create_token(user.username, user.password)
     return {"access_token": token}
@@ -18,7 +19,7 @@ def login(user: User):
 
 def create_token(username: str, password: str):
     if UserDB.check_credentials(session, username=username, password=password):
-    #if username in USER_PASSWORD and USER_PASSWORD[username] == password:
+        # if username in USER_PASSWORD and USER_PASSWORD[username] == password:
         token_payload = {"username": username, "password": password}
         token = jwt.encode(token_payload, SECRET_KEY)
         return token

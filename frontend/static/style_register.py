@@ -1,2 +1,1 @@
-style={"textAlign": "center"}
-
+style = {"textAlign": "center"}
