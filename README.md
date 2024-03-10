@@ -27,6 +27,19 @@
 [![Celery](https://img.shields.io/badge/celery-3670A0?style=for-the-badge&logo=celery&logoColor=ffdd53)](https://github.com/Vladimir-Dimitrov-Ngu)
 [![Git](https://img.shields.io/badge/git-3670A0?style=for-the-badge&logo=git&logoColor=ffdd53)](https://github.com/Vladimir-Dimitrov-Ngu)
 
+## Contents
+- [Детекция вирусного ПО](#)
+  - [Contents](#contents)
+  - [Структура Проекта](#структура-проекта)
+  - [Полное описание проекта](#полное-описание-проекта)
+    - [Серверная часть](#серверная-часть-backend)
+    - [Клиентская часть](#клиентская-часть-frontend)
+  - [API](#api)
+  - [Демо](#демо)
+  - [Дальнешний разработки](#дальнейшие-разработки)
+  - [Contributing](#contributing)
+  - [Authors](#authors)
+
 ## Структура Проекта
 ```
 project/
@@ -113,6 +126,12 @@ project/
 [Демо](https://drive.google.com/file/d/1xM3eyfHUk7nPPBfEhBKGVAPC0kdD_WVk/view?usp=sharing)
 
 
-### Дальнешний разработки 
+### Дальнейшие разработки 
 - Мобильное Приложение
 - Улучшение Алгоритмов Детекции
+
+### Contributing
+Copy of the [`contributing.md`](https://github.com/Vladimir-Dimitrov-Ngu/).
+
+### Authors
+- [Vladimir Dimitrov](https://github.com/Vladimir-Dimitrov-Ngu)
