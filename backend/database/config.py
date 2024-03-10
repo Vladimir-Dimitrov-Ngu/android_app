@@ -1,1 +1,1 @@
-DB_PATH = "sqlite:////Users/vladimirdimitrov/My_dev/backend/database/db/database.db"
+DB_PATH = "sqlite:///backend/database/db/database.db"

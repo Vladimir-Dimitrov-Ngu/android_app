@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  my_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "9005:9000"
+      - "9006:9001"
+      - "9007:9002"
+    volumes:
+      - ./backend:/app/backend
+      - ./frontend:/app/frontend
+      - ./main.py:/app/main.py
+      - ./requirements.txt:/app/requirements.txt
+      - ./weights:/app/weights
