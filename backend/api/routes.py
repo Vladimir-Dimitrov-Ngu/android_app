@@ -26,8 +26,6 @@ def create_job():
     print(job.result)
 
     while not job.is_finished:
-        if job.get_status() == 'failed':
-            return {"accuracy": 0.5}
         job.refresh()
         time.sleep(0.5)
 
